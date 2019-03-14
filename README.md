@@ -11,9 +11,9 @@ A few things:
 4. The prompt had a couple small typos. In hindsight, I should've asked for help instead of wringing my hands trying to figure out why things weren't working as expected.
 - The PATCH edit data endpoint is listed as "/users/me" instead of "/user/me". This one was okay because the API in swagger was clear.
 - The "user/me" endpoint Authorization header is listed as 
-      Header: “Authorization” “Bearer: <jwt token>"
+      Header: “Authorization” “Bearer: jwt token"
   but should be 
-      Header: “Authorization” “Bearer <jwt token>”
+      Header: “Authorization” “Bearer jwt token”
   without the extra colon. This one took a while because I'm not familiar with jwt tokens.
 
 
